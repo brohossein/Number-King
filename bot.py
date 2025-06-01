@@ -1,11 +1,11 @@
 import telebot
 from telebot import types
 
-TOKEN = 'AAGYwq9HsjxbAoyFg2b13-PwX4vauF6QGc0'
+TOKEN = '7533787995:AAGYwq9HsjxbAoyFg2b13-PwX4vauF6QGc0'
 
 ADMIN_ID = 5332806502
 
-bot = telebot.TeleBot(AAGYwq9HsjxbAoyFg2b13-PwX4vauF6QGc0)
+bot = telebot.TeleBot(7533787995:AAGYwq9HsjxbAoyFg2b13-PwX4vauF6QGc0)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
